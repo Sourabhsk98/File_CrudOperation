@@ -1,1 +1,7 @@
-Java is high level programming language!!
+// Initial content of the file
+Java is high level programming language..!!
+Java is Simple.
+
+//Updated content
+Java is high level programming language..!!
+Java is Difficult.
