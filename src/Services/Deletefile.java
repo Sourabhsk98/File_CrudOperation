@@ -11,7 +11,7 @@ public class Deletefile {
         System.out.print("Enter the file name: ");
         String fileName = scanner.nextLine();
 
-        Path myPath = Paths.get("D:\\PK\\Java", fileName);
+        Path myPath = Paths.get("Path of your folder", fileName);
 
         try {
             boolean fileDeleted = Files.deleteIfExists(myPath);
