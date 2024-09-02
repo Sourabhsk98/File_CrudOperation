@@ -13,7 +13,7 @@ public class Createfile {
         System.out.print("Enter the file name: ");
         String fileName = scanner.nextLine();
 
-        Path path = Paths.get("D:\\PK\\Java", fileName);
+        Path path = Paths.get("Path of your folder", fileName);
 
         try {
             Files.createFile(path);
